@@ -1,0 +1,338 @@
+
+footer {
+    h5 {
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 1.5px;
+    }
+
+    .nav .nav-item .nav-link {
+        font-size: 14px;
+        font-weight: 400;
+        color: rgb(150, 150, 150);
+        flex-direction: initial;
+        flex-wrap: initial;
+
+        &:hover {
+            color: #9387d9;
+        }
+    }
+}
+
+.elementor-element {
+    background-color: rgba(0, 0, 0, .9);
+    height: 7.5vh;
+
+    p {
+        color: #969696;
+        font-size: 11px;
+        font-family: sans-serif;
+        letter-spacing: 1.5px;
+    }
+}
+
+.main-screen-home {
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 100%;
+
+    .zoomimg-div {
+        overflow: hidden;
+        border-radius: 19px;
+
+        .zoomimg {
+            transition: transform 0.85s;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.contact-theme {
+    h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 60px;
+        font-weight: 600;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.contact-details {
+    background: url("https://wpbingosite.com/wordpress/tikie/wp-content/uploads/2021/06/silhouettes-trees-people-wood-1.jpg") center;
+    background-size: cover;
+    height: auto;
+    padding: 90px 0px 90px 0px;
+    background-attachment: fixed;
+
+    .contact-details-inner {
+        padding: 0 10px 0 10px;
+
+        .card {
+            margin: 0px 0px 0px 0px;
+            padding: 50px 30px 50px 30px;
+            background: none;
+            border-style: solid;
+            border-width: 2px 2px 2px 2px;
+            border-color: #FFFFFF;
+            border-radius: 20px 20px 20px 20px;
+
+            .card-title {
+                color: #FFFFFF;
+                font-size: 16px;
+                font-weight: 600;
+                margin-top: 5px;
+            }
+
+            .card-text {
+                color: #FFFFFF;
+                font-size: 14px;
+            }
+
+            .card-body-icon .icon-box i {
+                background-color: #9387d9;
+                font-size: 22px;
+                color: #FFFFFF;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 23px;
+                padding-right: 23px;
+                border-radius: 50%;
+
+            }
+        }
+    }
+
+}
+
+.elementor-heading-title {
+    h2 {
+        color: rgb(210, 210, 210);
+        font-size: clamp(2rem, 10vw, 12rem);
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+.elementor-row {
+    .bg-video {
+        img {
+            position: relative;
+        }
+
+        i {
+            font-size: 70px;
+            position: absolute;
+            margin-left: 600px;
+            margin-top: 170px;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.element-wrap {
+    background-color: #E1DFD430;
+    height: auto;
+    padding: 80px 0 80px 0;
+
+    .element-wrap-inner {
+        padding: 0 20px 0 20px;
+
+        h3 {
+            font-size: 14px;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        p {
+            font-size: 16px;
+            color: #969696;
+        }
+
+        .elementor-widget {
+            &:hover {
+                img {
+                    transition: transform 0.85s;
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+}
+
+.products-list-inner {
+    .card {
+        border: none;
+
+        .card-title {
+            font-size: 16px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+
+        .card-text {
+            color: #9387d9;
+        }
+
+        .card-price {
+            font-size: 16px;
+            color: #969696;
+            font-weight: 500;
+            margin-top: -10px;
+        }
+
+        .card-img-bottom {
+            display: none;
+        }
+
+        &:hover {
+            transition-delay: 1s;
+
+            .card-img-top {
+                display: none;
+            }
+
+            .card-img-bottom {
+
+                display: block;
+            }
+        }
+    }
+}
+
+header {
+    background-color: #9387d9;
+    padding-top: 20px;
+
+    .navbar .navbar-collapse .nav-link {
+        color: #FFFFFF;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: sans-serif;
+        letter-spacing: 1.5px;
+    }
+
+    .navbar {
+        .navbar-right h6 {
+            color: #FFFFFF;
+            font-size: 10px;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+
+            @media (max-width:991px) {
+                display: none;
+            }
+        }
+
+        .navbar-logo img {
+            display: none;
+            max-height: 45px;
+
+            @media (max-width:991px) {
+                display: block;
+                align-items: center;
+            }
+        }
+    }
+
+    .uppernav {
+        @media (max-width:991px) {
+            display: none;
+        }
+    }
+}
+
+.inner-div {
+    width: 550px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+
+    input {
+        width: 350px;
+    }
+
+    form>* {
+        vertical-align: middle;
+        height: 50px;
+    }
+
+    .search-box {
+        width: 350px;
+        height: 40px;
+        background: #FFFFFF;
+        border: none;
+        font-size: 28px;
+        display: inline-block;
+        font-size: 13px;
+        border-radius: 30px;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+
+    .search-button {
+        position: relative;
+        border: none;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        display: inline-block;
+        height: 40px;
+    }
+
+    select {
+        font-size: 13px;
+        font-weight: 600;
+        width: 150px;
+        height: 40px;
+        font-family: sans-serif;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 30px;
+    }
+}
+
+.singlecard {
+    .card {
+        position: relative;
+
+        .overlay {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 85%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            .shop {
+                background-color: #FFFFFF;
+                color: black;
+                font-size: 16px;
+                padding: 10px 12px;
+                margin-bottom: 10px;
+                &:hover{
+                    background-color: #9387d9;
+                    color: #FFFFFF;
+                }
+                i{
+                    font-size: 20px;
+                }
+              }
+        }
+        &:hover{
+            .overlay{
+                transition: .6s;
+                opacity: 1;
+            }
+        }
+    }
+}
